@@ -1,0 +1,132 @@
+
+
+*,
+*:before,
+*:after {
+	
+	margin:0;
+	padding:0;
+}
+
+body {
+
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	font-weight: 100;
+	color:#fff;
+	line-height: 30px;
+}
+
+.header {
+	height: 100vh;
+	background-color: #172BDB;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+}
+
+.main-logo {
+	position: absolute;
+	top:50px;
+	left: 55px;
+}
+
+.m-logo {
+	width: 70%;
+}
+
+.dt-nav {
+	position: absolute;
+	top: 50px;
+	left: 43%;
+	font-weight: 400;
+	font-size: 20px;
+	padding: 20px 30px;
+	background-color: #999;
+}
+
+.nav {
+	position: absolute;
+	top: 53px;
+	right: 55px;
+}
+
+.nav a {
+	text-decoration: none;
+	color:#fff;
+	font-weight: 400;
+}
+
+.text-area {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+}
+
+h2 {
+	font-size: 65px;
+	font-weight: 200;
+	padding-bottom: 30px;
+}
+
+p {
+	font-size: 25px;
+	font-weight: 100;
+}
+
+.header-text {
+	margin-bottom: 50px;
+}
+
+.buttons a {
+	text-decoration: none;
+	color:#172BDB;
+	background-color:#fff;
+	border-radius: 30px;
+	font-size: 20px;
+	font-weight: 400;
+	margin-left: 50px;
+	box-shadow: 8px 4px 9px #000;
+}
+
+.button-white {
+	padding:16px 30px;
+}
+
+.button-white2 {
+	padding:16px 60px;
+}
+
+.buttons a:hover {
+	background-color: #172BDA;
+	color:#fff;
+}
+
+.buttons a:active {
+	position: relative;
+	right: 1px;
+}
+
+.header-image {
+	position: absolute;
+	left: 25px;
+	top:100px;
+}
+
+.iphone {
+	width: 750px;
+}
+
+.footer {
+	height: 5vh;
+	background-color: #222;\
+	position: relative;
+}
+
+small {
+	text-align: center;
+	font-style: italic;
+	position:absolute;
+	left: 42%;
+	transform: translateX(-50%, -50%);
+}
